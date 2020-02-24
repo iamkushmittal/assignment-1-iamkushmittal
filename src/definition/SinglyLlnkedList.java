@@ -29,7 +29,7 @@ public class SinglyLlnkedList<E> implements SinglyADT<E> {
     }
 
     @Override
-    public void remove() {
+    public void remove(int i) {
 
     }
 
@@ -44,7 +44,9 @@ public class SinglyLlnkedList<E> implements SinglyADT<E> {
     }
 
     @Override
-    public void print() {
+    public void print(int i) {
 
     }
+
+
 }

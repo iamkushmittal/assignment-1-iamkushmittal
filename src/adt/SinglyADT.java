@@ -8,7 +8,7 @@ public interface SinglyADT<E> {
 
         //This method will remove an item from the linked list.
 
-        void remove();
+        void remove(int i);
 
         /*
               This method will search an item in the list.
@@ -25,7 +25,7 @@ public interface SinglyADT<E> {
         /*
       This method will print all the item in the list.
        */
-        void print();
+        void print(int i);
     }
 
 
